@@ -25,15 +25,10 @@ void copier() {
         ++i;
     }
 
-    for (int i = 0; i < 4; ++i) {
-        cout << inputs[i] << " ";
+    for (auto i: inputs) {
+        cout << i << " ";
     }
     cout << "\n";
-
-    for (int i = 0; i < 4; ++i) {
-        cout << &inputs[i] << " ";
-    }
-
 
     cout << std::endl;
 
